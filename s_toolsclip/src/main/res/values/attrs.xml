@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="androidMe">
+        <attr name="textcolor" format="color" />
+        <attr name="bkcolor" format="color" />
+        <attr name="righttxtcolor" format="color" />
+
+        <attr name="gravityTxt" format="string" />
+        <attr name="hint" format="string" />
+        <attr name="digits" format="string" />
+        <attr name="inputType" format="string" />
+
+        <attr name="enableSafeKeyBoard" format="boolean" />
+        <attr name="enableEdit" format="boolean" />
+
+        <attr name="hideRightTxt" format="boolean" />
+        <attr name="hideLeftTxt" format="boolean" />
+        <attr name="hideRightImage" format="boolean" />
+        <attr name="hideCenterTxt" format="boolean" />
+        <attr name="showbg" format="boolean" />
+        <attr name="splitLine" format="boolean" />
+        <attr name="selected" format="boolean" />
+
+        <attr name="showCenter" format="boolean" />
+        <attr name="fromAngle" format="float" />
+        <attr name="toAngle" format="float" />
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+
+        <attr name="name" format="string" />
+        <attr name="value" format="string" />
+        <attr name="nameConfirm" format="string" />
+        <attr name="nameWidth" format="dimension" />
+        <attr name="valueWidth" format="dimension" />
+        <attr name="confirmWidth" format="dimension" />
+
+        <attr name="text" format="string" />
+        <attr name="textBottom" format="string" />
+        <attr name="array" format="string" />
+        <attr name="arrayA" format="string" />
+        <attr name="arrayB" format="string" />
+        <attr name="textedit" format="string" />
+        <attr name="lefttxt" format="string" />
+        <attr name="righttxt" format="string" />
+        <attr name="righthint" format="string" />
+
+        <attr name="maxLength" format="integer" />
+        <attr name="pos" format="integer" />
+
+        <attr name="leftTextWidth" format="dimension" />
+        <attr name="textsize" format="dimension" />
+        <attr name="switchsize" format="dimension" />
+
+        <attr name="res" format="reference" />
+        <attr name="leftres" format="reference" />
+        <attr name="rightres" format="reference" />
+        <attr name="background" format="reference" />
+    </declare-styleable>
+</resources>

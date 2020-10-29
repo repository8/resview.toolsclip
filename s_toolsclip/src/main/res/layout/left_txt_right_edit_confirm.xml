@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="提示信息"
+        android:textColor="@color/color_text_style_bgbk"
+        android:textSize="22dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/txt_center"
+        />
+
+    <EditText
+        android:id="@+id/txt_center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/edit_round_white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:hint=""
+        android:inputType="text"
+        android:textColor="@color/color_text_black"
+        android:textColorHint="@color/color_normal_gray"
+        android:textSize="22dp"
+        app:layout_constraintLeft_toRightOf="@+id/txt_left"
+        app:layout_constraintRight_toLeftOf="@+id/btn_confirm"
+        app:layout_constraintHorizontal_weight="60"
+        />
+    <Button
+        android:id="@+id/btn_confirm"
+        style="@style/button_colorbg_style"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="修改"
+        android:textSize="22dp"
+        app:layout_constraintLeft_toRightOf="@+id/txt_center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_weight="40"
+        />
+
+    <View
+        android:id="@+id/view_splitline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/color_normal_gray" />
+</androidx.constraintlayout.widget.ConstraintLayout>
