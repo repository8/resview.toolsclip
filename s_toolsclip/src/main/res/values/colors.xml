@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_text_style_bgbk">#FFF</color>
+    <color name="color_page_background">#FFF</color>
+    <color name="color_txt_deep_base">#002884</color>
+    <color name="color_normal_btnbg">#90CF26</color>
+    <color name="color_normal_gray">#A6A6A6</color>
+    <color name="split_line_color">#666666</color>
+    <color name="color_bg_gray">#666666</color>
+    <color name="color_normal_green">#66FF77</color>
+    <color name="color_normal_blue">#6666FF</color>
+    <color name="color_text_black">#000</color>
+    <color name="color_blacksliver">#43454F</color>
+    <color name="color_normal_white">#FFF</color>
+    <color name="color_normal_btntxt">#FFF</color>
+    <color name="color_normal_gold">#D6DD12</color>
+    <color name="color_normal_goldDark">#5b6116</color>
+</resources>
